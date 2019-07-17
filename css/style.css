@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600|Source+Code+Pro&display=swap');
+
+font-family: 'Source Code Pro', monospace;
+font-family: 'Raleway', sans-serif;
+
+img{
+  height: 150px;
+  width: 150px;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
+h2, h3{
+  font-family: 'Source Code Pro', monospace;
+  color: black;
+}
+
+body {
+  text-align: center;
+  line-height: 1.2;
+  background-color: #4e3440
+}
+
+ul{
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 40px;
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+a{
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.image-rounded {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.card {
+    background: #c1f6e7;
+    padding: 30px;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+
+.class-icon{
+  color: black;
+}
+
+.class-icon:hover{
+  color: #eaeaea;
+}
+
+.button-connect {
+    background-color: #00bdaa;
+    width: 30%;
+    margin: 0 auto;
+    padding: 6px;
+    border-radius: 60px;
+}
+
+.button-connect > a {
+  color: white;
+}
+.button-connect:hover {
+    background-color: #ffcbcb;
+    width: 30%;
+    margin: 0 auto;
+    padding: 6px;
+    border-radius: 60px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
